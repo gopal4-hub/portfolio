@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <title>gopal's portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>welcome to my portfolio</span>
+            </div>
+            <div class="links">
+                <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="">HOME</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">ABOUT ME</a></div>
+                <div class="" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">EDUCATION</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">PROJECTS</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="contact.html">CONTACT</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <a href=""></a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+        <section>
+            <div class="main-container">
+                <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                    <img src="" alt="">
+                </div>
+                <div class="content">
+                    <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800"><span></span></h1>
+                    <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900"> <span></span></div>
+                    <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000"></p>
+                    <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                        <a href="https://github.com/gopal4-hub/"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/gopal-jha-85ba1227/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://twitter.com/gopaljh71299062"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                        <button>Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({offset:0});
+        </script>
+        <script>
+            function hamburg(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(0px)"
+            }
+            function cancel(){
+                const navbar = document.querySelector(".dropdown")
+                navbar.style.transform = "translateY(-500px)"
+            }
+        </script>
+</body>
+</html>
+
+
+  </header>
+
+  <main class="l-main">
+<!-- home -->
+    <section class="home bd-grid section" id="home">
+      <div class="home-data">
+        <h2 class="home-title">
+          Hello<br />I'am <span class="home-title-color">gopal jha </span><br />
+         <span id="jobTitle" >a web Developer</span> 
+        </h2>
+
+        <a href="" target="_blank"
+          class=""></a>
+
+      </div>
+
+      <div class="home-social">
+        <a href="" target="_blank" class="home-social-icon"><i
+            class="bx bxl-linkedin"></i></a>
+        <a href="" target="_blank" class="home-social-icon"><i
+            class="bx bxl-github"></i></a>
+      </div>
+
+      <div class="home-img">
+        <img src="" alt="" />
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <h2 class="section-title">About</h2>
+
+      
+      <a href="about.html" target="_blank"
+      class=""></a>
+
+
+      <div class="about-container bd-grid">
+        <div class="about-img">
+          <img src="assets/img/profile_1.jpeg" alt="" />
+
+
+        </div>
+
+        <div style="text-align: center">
+          <h2 class="about-subtitle">I'am Gopal jha</h2>
+          <p class="about-text">
+            hey,i work as a web developer,im passionate about making website which is user friendly,and i love developing and upgrading my skills as much as possible,lokking forward to learn and grow in this vast field of web development.
+          </p>
+          <br />
+          
+          <p>
+            contact me @ gjha785@gmail.com
+            <i style="color: #4070f4; font-size: 1.2rem; cursor: pointer" class="bx bx-copy" id="copy"></i>
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!---========Education ======--->
+    <section class="education section" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="education-container bd-grid">
+    
+        <div class="education-data">
+          <div class="education-names">
+            <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+            <span class="education-name">HSC</span> 
+            <p class="education-platform ">Nirmala Memorial Foundation Degree college Of Commerce And Science </p>
+            <p class="year of passing">2017</p>
+
+          </div>
+        </div>
+        </div>
+      <div class="education-container bd-grid">
+    
+    <div class="education-data">
+      <div class="education-names">
+        <!-- <i class="bx bxl-html5 skills-icon"></i> -->
+        <span class="education-name">BSc Cs</span>
+        <p class="education-platform ">Nirmala Memorial Foundation Degree college Of Commerce And Science </p>
+        <p class="year-of-passing">2021</p>
+
+      </div>
+    </div>
+    </div>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+      <h2 class="section-title">Skills</h2>
+      
+      <a href="" target="_blank"
+      class=""></a>
+</section>
+
+      <div class="skills-container bd-grid">
+        <div>
+          <!-- <h2 class="skills-subtitle">Front-end Skills</h2> -->
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-html5 skills-icon"></i>
+              <span class="skills-name">HTML</span>
+            </div>
+            <!-- <div class="skills-bar skills-html"></div> 
+             <div>
+                <span class="skills-percentage">75%</span>
+              </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-css3 skills-icon"></i>
+              <span class="skills-name">CSS</span>
+            </div>
+             <!-- <div class="skills-bar skills-css"></div>  -->
+            <!-- <div>
+                <span class="skills-percentage">70%</span>
+              </div>  -->
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-javascript skills-icon"></i>
+              <span class="skills-name">JavaScript</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+
+          </div>
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-react skills-icon"></i>
+              <span class="skills-name">c</span>
+            </div>
+            <!-- <div class="skills-bar skills-react"></div> -->
+            
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <i class="bx bxl-nodejs skills-icon"></i>
+              <span class="skills-name">Node.js</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div> -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+          </div>
+
+          <div class="skills-data">
+            <div class="skills-names">
+              <img class="skills-icon" src="" alt="" />
+              <span class="skills-name">C++</span>
+            </div>
+            <!-- <div class="skills-bar skills-css"></div>  -->
+            <div>
+                <!-- <span class="skills-percentage">70%</span> -->
+              </div> 
+          </div>
+          <div>
+             <!-- <h2 class="skills-subtitle">TOOLS</h2> --> 
+             <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="" alt="" />
+                <span class="skills-name">Github</span>
+              </div>
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="" alt="" />
+                <span class="skills-name">Git</span>
+              </div>
+
+            </div>
+            <div class="skills-data">
+              <div class="skills-names">
+                <img class="skills-icon" src="" alt="" />
+                <span class="skills-name">python</span>
+              </div>
+
+            </div> 
+
+          </div>
+        </div>
+    </section>
+
+    <!-- my proj -->
+    <section class="projects section" id="projects">
+      <h2 class="section-title">Projects</h2>
+
+      <div class="project-container">
+        <div class="project-img">
+          <img src="" alt="" />
+          <p class="project-title">shopping website</p>
+          <p class="project-subtitle">
+            i made this website to buy clothes of many varient.
+            <br />
+        
+           
+            <br />
+            <br />HTML | CSS | js
+          </p>
+         
+            
+            </a>
+          </div>
+        </div>
+        
+        <div class="project-img">
+          <img src="" alt="" />
+          <p class="project-title">Portfolio</p>
+          <p class="project-subtitle">
+            A portfolio web application.
+            <br />
+            <br />
+            i have made this project which tells abt myself.
+            . <br />
+            <br />HTML | CSS | js
+          </p>
+          
+                
+             
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="" alt="amazon" />
+          <p class="project-title">amazon clone</p>
+          <p class="project-subtitle">
+            i was in my last year when we did this proj.
+            <br />
+            <br />
+            it was a group project in degree cllg.
+            <br />
+            <br />
+            java/css/js/mango/react
+          </p>
+          <div class="">
+            <a href="" target="_blank"
+              class="">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="" target="_blank" class="">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="" alt="" />
+          <p class="project-title">chat strange
+            
+          </p>
+          <p class="project-subtitle">
+            a simple tool where you can chat.
+            
+            <br />
+            <br />
+          simple proj.
+            <br />
+            <br />
+           java/css/node.js
+          </p>
+          <div class="">
+            <a href=""
+              target="_blank" class="">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="" target="_blank" class="">
+              <i class="bx bx-link-external"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project-img">
+          <img src="" alt="shop app" />
+          <p class="project-title">
+            Shopping App
+          </p>
+          <p class="project-subtitle">
+            
+            
+            <br />
+            <br />
+            It was an Individual project built by me.
+            <br />
+            <br />
+           java| css
+          </p>
+          <div class="">
+            <a href=""
+              target="_blank" class="">
+              <i class="bx bxl-github"></i>
+            </a>
+            <a href="h/" target="_blank" class="">
+            <i class=""></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- footer and contact -->
+  
+  <footer class="footer section" id="contact">
+    <h2 class="section-title">you can contact me from below links</h2>
+    <p class="footer-title">Gopal jha</p>
+    <div class="footer-social">
+      <a href="https://www.linkedin.com/in/gopal-jha-85ba1227/" target="_blank" class="footer-icon"><i
+          class="bx bxl-linkedin">
+          <br />
+          LinkedIn</i></a>
+      <a href="https://twitter.com/gopaljh71299062/" target="_blank" class="footer-icon"><i class="bx bxl-twitter">
+          <br />
+          Twitter</i></a>
+      <a href="mailto:gjha785@gmail.com" target="_blank" class="footer-icon"><i class="bx bx-mail-send">
+          <br />
+          E-mail</i></a>
+      <a href="tel:+91 8652441734" target="_blank" class="footer-icon"><i class="bx bx-phone">
+          <br />
+          Phone</i></a>
+      <a href="https://github.com/gopal4-hub" target="_blank" class="footer-icon"><i
+            class="bx bxl-github">
+          <br />
+          GitHub
+          </i></a>
+    </div>
+    <p>@ 2025 copyright all right reserved</p>
+  </footer>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
